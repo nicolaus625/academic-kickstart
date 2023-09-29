@@ -81,20 +81,21 @@ edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", content_dir 
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "yinghaom@andrew.cmu.edu"
-phone = "+86 10 5919 4304"
+email = "yinghao.ma@qmul.ac.uk"
+# phone = "+86 10 5919 4304"
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {}
+address = {street = "ENG 408, ENgineering Building, Queen Mary University of London, Mile End", city="London", region="UK", postcode ="E1 4NS"}
 # {street = "No.17 Building (Xintaiyang Student Activity Center), No.5 Yiheyuan Road", city = "Beijing", region = "CHN", postcode = "100871", country = "China", country_code = ""}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "39.9873", longitude = "116.3048"}
+# coordinates = {latitude = "39.9873", longitude = "116.3048"}
+coordinates = {latitude = "51.523", longitude = "-0.0418"}
 
 # Directions for visitors to locate you.
-directions = "(expired) B218 for Chinese Music Institute, Xintaiyang Student Activity Center, next to No.28 Building"
+# directions = "(expired) B218 for Chinese Music Institute, Xintaiyang Student Activity Center, next to No.28 Building"
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
@@ -106,7 +107,7 @@ appointment_url = ""
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-  # {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/Twitter"},
+  # {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/nicolaus625"},
   {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:live:13ec6351dfca4cdb?call"},
   # {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
   # {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
@@ -121,7 +122,7 @@ contact_links = [
 sharing_image = ""
 
 # Twitter username (without @). Used when a visitor shares your site on Twitter.
-twitter = ""
+twitter = "nicolaus625"
 
 ############################
 ## Regional Settings
@@ -134,7 +135,7 @@ date_format = "Jan 2, 2006"
 time_format = "3:04 PM"
 
 # Address format (choose from the [address_formats] list below or add you own to the list).
-address_format = "en-us"
+address_format = "en-gb"
 
 ############################
 ## Advanced
@@ -252,7 +253,7 @@ plugins_js  = []
   #   3: OpenStreetMap (Mapbox)
   engine = 2
   api_key = ""
-  zoom = 15
+  zoom = 16
 
 ############################
 ## Marketing

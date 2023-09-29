@@ -26,13 +26,20 @@ subtitle = ""
     tag = "*"
   
   [[content.filter_button]]
-    name = "Deep Learning"
-    tag = "Deep Learning"
-  
-  [[content.filter_button]]
     name = "MIR"
     tag = "MIR"
-  
+  [[content.filter_button]]
+    name = "SSL"
+    tag = "SSL"
+  [[content.filter_button]]
+    name = "benchmark"
+    tag = "benchmark"  
+  [[content.filter_button]]
+    name = "Multimodal"
+    tag = "Multimodal"
+  [[content.filter_button]]
+    name = "Data"
+    tag = "datasets"
   [[content.filter_button]]
     name = "Other"
     tag = "Other"

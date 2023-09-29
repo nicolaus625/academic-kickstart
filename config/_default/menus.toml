@@ -9,6 +9,11 @@
   weight = 10
 
 [[main]]
+  name = "Publications"
+  url =  "#publications" # <- recent fratured pub ->"#featured"
+  weight = 15
+
+[[main]]
   name = "Music"
   url = "#accomplishments"
   weight = 20
@@ -23,10 +28,6 @@
   url = "#projects" #
   weight = 30
 
-[[main]]
-  name = "Publications"
-  url =  "#publications" # <- recent fratured pub ->"#featured"
-  weight = 50
 
 [[main]]
   name = "Other"
